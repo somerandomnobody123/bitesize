@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bitesize — a fact a day</title>
+  <meta name="description" content="One interesting fact, every day.">
+  <script>!function(){var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}()</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <header class="top-bar">
+      <span class="site-name">bitesize</span>
+      <div class="top-bar-right">
+        <div class="date-picker-wrapper">
+          <span class="current-date" id="currentDateDisplay"></span>
+          <input type="date" id="datePicker" aria-label="Browse past facts" title="Browse past facts">
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="fact-stage">
+      <div class="fact-content">
+        <p class="fact-label" id="factLabel"></p>
+        <h1 class="fact-text" id="factText"></h1>
+        <p class="fact-detail" id="factDetail"></p>
+      </div>
+    </main>
+
+    <footer class="bottom-bar">
+      <span class="attribution">made by <a href="https://stumpted.com" target="_blank" rel="noopener noreferrer" class="attr-link">stumpted</a></span>
+    </footer>
+
+  </div>
+
+  <script src="facts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
