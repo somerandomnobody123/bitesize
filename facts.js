@@ -1,4 +1,16 @@
 const FACTS = {
+  "2026-05-26": {
+    fact: 'Dreams only last about 5-20 minutes in real time.',
+    detail: 'Your brain\'s perception of time changes while you sleep, making each dream feel much longer than they actually are. One dream occurs every REM cycle (about 90 minutes), meaning a normal day of sleep makes you dream 5-6 times.'
+  },
+  "2026-05-25": {
+    fact: 'Elephants are the only mammals that cannot jump.',
+    detail: 'Defined as "lifting all 4 limbs off the ground at once", the elephants\' downwards pointing leg bones lack the spring-like flexibility seen in other animals, rendering them unable to jump.'
+  },
+  "2026-05-24": {
+    fact: 'The Pistol Shrimp is louder than a jet engine.',
+    detail: 'A Pistol Shrimp can create shockwaves by exploding bubbles created by shutting its claw, reaching volumes of over 200dB loud. This makes it the loudest animal alive (though some say it\'s the blue/sperm whale).'
+  },
   "2026-05-23": {
     fact: 'Hippos can easily outpace a human.',
     detail: 'Hippos can reach land speeds of up to 30mph or 48km/h, while Usain Bolt\'s top speed was around 27.78mph or 44.72km/h.'
@@ -19,7 +31,6 @@ const FACTS = {
     fact: "Wombat poop is square.",
     detail: 'Caused from a unique digestive system, the cubic shape is used to allow the excrement to stay in place, visible to other wombats in order to mark territory.',
   },
-
   "2026-05-18": {
     fact: "The genus for pig is sus.",
     detail: 'The genus name originates from the latin word for "pig", "boar" or "swine".',
