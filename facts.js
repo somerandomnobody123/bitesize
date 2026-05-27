@@ -1,4 +1,24 @@
 const FACTS = {
+  "2026-05-31": {
+    fact: 'The shortest war in history was 38 minutes.',
+    detail: 'Set in 1896, the Anglo-Zanzibar war was ended quickly as the Zanzibar surrendered to the British.'
+  },
+  "2026-05-30": {
+    fact: 'Ketchup was originally medicine.',
+    detail: 'Tomtato ketchup was originally used as a pill for indigestion in the 1830s. It only became a condiment in the 1900s.'
+  },
+  "2026-05-29": {
+    fact: 'Pyrite can naturally form as a cube.',
+    detail: 'Known as "fool\'s gold", the special chemical bonds in its structure connect at a perfect 90 degrees.'
+  },
+  "2026-05-28": {
+    fact: 'Chainsaws were originally invented for childbirth.',
+    detail: 'Invented in the 1780\'s, they were made to assist in difficult childbirths as hand-cranked saws to cut through pelvic bone.'
+  },
+  "2026-05-27": {
+    fact: 'Cockroaches are some of the world\'s oldest animals.',
+    detail: 'The earliest cockroach fossils date back to roughly 125 to 150 million years ago. Cockroaches outlived the dinosaurs and have survived multiple mass extinctions.'
+  },
   "2026-05-26": {
     fact: 'Dreams only last about 5-20 minutes in real time.',
     detail: 'Your brain\'s perception of time changes while you sleep, making each dream feel much longer than they actually are. One dream occurs every REM cycle (about 90 minutes), meaning a normal day of sleep makes you dream 5-6 times.'
