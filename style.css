@@ -194,8 +194,28 @@ body {
   transition: opacity 0.2s;
 }
 
+.fact-source {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 0.64rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  transition: opacity 0.2s;
+}
+
+.fact-source.is-ai {
+  color: #5b7fc4;
+  border-color: #5b7fc4;
+}
+
 .fact-content.fading .fact-text,
-.fact-content.fading .fact-detail {
+.fact-content.fading .fact-detail,
+.fact-content.fading .fact-source {
   opacity: 0;
 }
 

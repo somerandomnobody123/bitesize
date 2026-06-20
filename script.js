@@ -19,6 +19,7 @@ function showFact(dateStr) {
   const content = document.getElementById('factText');
   const detail = document.getElementById('factDetail');
   const label = document.getElementById('factLabel');
+  const sourceEl = document.getElementById('factSource');
   const wrapper = document.querySelector('.fact-content');
 
   const today = getTodayString();
@@ -34,10 +35,15 @@ function showFact(dateStr) {
       content.textContent = entry.fact;
       detail.textContent = entry.detail || '';
       detail.style.display = entry.detail ? '' : 'none';
+      const isAI = entry.source === 'ai';
+      sourceEl.textContent = isAI ? 'AI-generated' : 'Added by stumpted';
+      sourceEl.classList.toggle('is-ai', isAI);
+      sourceEl.style.display = '';
     } else {
       content.textContent = 'There is no fact written today.';
       detail.textContent = 'stumpted is being lazy.';
       detail.style.display = '';
+      sourceEl.style.display = 'none';
     }
     wrapper.classList.remove('fading');
   }, 200);
