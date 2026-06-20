@@ -36,7 +36,8 @@ function showFact(dateStr) {
       detail.textContent = entry.detail || '';
       detail.style.display = entry.detail ? '' : 'none';
       const isAI = entry.source === 'ai';
-      sourceEl.textContent = isAI ? 'AI-generated' : 'Added by stumpted';
+      const who = isAI ? 'AI' : 'stumpted';
+      sourceEl.textContent = `${isToday ? "Today's" : "This"} fact was picked by ${who}`;
       sourceEl.classList.toggle('is-ai', isAI);
       sourceEl.style.display = '';
     } else {
