@@ -1,4 +1,44 @@
 const FACTS = {
+  "2026-06-29": {
+    fact: 'The oldest written song known, a 3,400-year-old Hurrian hymn, already implies the use of harmony.',
+    detail: 'Clay tablets from Ugarit in modern Syria, dating to about 1400 BCE, carry the "Hurrian Hymns" with musical notation that specifies pairs of lyre strings and intervals rather than single notes, hinting at harmony and tuned diatonic scales. That places a sophisticated theoretical system, with named intervals and tuning instructions, at the very start of the written musical record, over a millennium before ancient Greece formalised music theory.',
+    source: 'ai'
+  },
+  "2026-06-28": {
+    fact: 'Medieval Damascus sword blades secretly contained carbon nanotubes.',
+    detail: 'In 2006 electron microscopy of a 17th-century Damascus blade revealed carbon nanotubes and nanowires woven through the steel, likely formed from trace impurities in the wootz ore during repeated forging and cooling. This nanostructure helped give the blades their legendary sharpness and strength, centuries before nanotechnology was understood.',
+    source: 'ai'
+  },
+  "2026-06-27": {
+    fact: 'One deep-sea snail builds armour plating out of iron, the only animal known to do so.',
+    detail: 'The scaly-foot gastropod, found only at a few Indian Ocean hydrothermal vents, coats its shell and hundreds of foot scales in iron sulfide minerals like greigite and pyrite, all forged with help from symbiotic bacteria. Its uniquely tough, three-layered armour has been studied by researchers designing better protective materials.',
+    source: 'ai'
+  },
+  "2026-06-25": {
+    fact: 'Earth ran natural nuclear reactors by itself about 1.7 billion years ago.',
+    detail: 'In the Oklo deposit in Gabon, uranium concentrations sustained self-regulating fission for hundreds of thousands of years, with groundwater acting as a neutron moderator. It was only possible because U-235 was far more abundant then (about 3% versus 0.7% today), and the site is now studied for how nuclear waste migrates through rock.',
+    source: 'ai'
+  },
+  "2026-06-24": {
+    fact: 'Prince Rupert\'s Drops can survive a hammer blow to the head but explode into powder when their tail is scratched.',
+    detail: 'Dripping molten glass into cold water locks the surface into intense compressive stress while the core stays in tension, making the bulb nearly indestructible. Nick the thin tail and that stored tension releases a crack racing through the glass at about 1,500 metres per second, shattering it instantly.',
+    source: 'ai'
+  },
+  "2026-06-23": {
+    fact: 'A single diamond proved Earth hides oceans\' worth of water hundreds of kilometres underground.',
+    detail: 'In 2014 a diamond from Brazil was found to contain ringwoodite, a mineral stable only deep in the mantle, holding about 1.5% water by weight. It confirmed the transition zone 410-660 km down could store as much water as all the surface oceans combined, locked inside crystal structures rather than as liquid.',
+    source: 'ai'
+  },
+  "2026-06-22": {
+    fact: 'A whole language on a Canary Island is spoken entirely in whistles.',
+    detail: 'Silbo Gomero, used on La Gomera, encodes Spanish into whistled tones that carry up to about 5 km across the island\'s deep ravines, far farther than the voice. Nearly lost by the 20th century, it was made mandatory in local schools and recognised by UNESCO in 2009.',
+    source: 'ai'
+  },
+  "2026-06-21": {
+    fact: 'Metal can catch a "disease" called tin pest that turns it to powder.',
+    detail: 'Below about 13.2°C, metallic white tin slowly converts to a brittle grey powder with a different crystal structure, and the change is autocatalytic, so contact with already-converted tin "infects" healthy metal. It has been blamed for crumbling organ pipes in cold churches and is a renewed concern for modern lead-free electronics solder.',
+    source: 'ai'
+  },
   "2026-06-20": {
     fact: 'The Mediterranean Sea once almost completely dried up.',
     detail: 'During the Messinian Salinity Crisis about 5-6 million years ago, the Strait of Gibraltar closed and the Mediterranean nearly evaporated, leaving salt deposits up to two kilometres thick.',
